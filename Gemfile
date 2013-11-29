@@ -8,6 +8,10 @@ gem 'heroku'
 gem 'sass'
 gem 'unicorn'
 
+gem 'carrierwave-mongoid'
+gem "fog", "~> 1.3.1"
+gem "aws-s3"
+
 group :development do
   gem 'foreman'
   gem 'unicorn'
