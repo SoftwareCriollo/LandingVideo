@@ -8,7 +8,7 @@ require 'capybara/dsl'
 require 'rack/test'
 require 'sinatra/base'
 
-class App < Sinatra::Base
+class NSAgentBackend < Sinatra::Base
   set :environment, :test
   set :run, false
   set :raise_errors, true

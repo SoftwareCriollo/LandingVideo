@@ -8,7 +8,7 @@ Mongoid.load!("config/mongoid.yml")
 
 Slim::Engine.set_default_options :sections => true
 
-class App < Sinatra::Base
+class NSAgentBackend < Sinatra::Base
 
   set :public, File.join(File.dirname(__FILE__), 'public')
   set :views, File.join(File.dirname(__FILE__), 'views')

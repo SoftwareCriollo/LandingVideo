@@ -1,11 +1,11 @@
 
 development:
   host: localhost
-  database: bartender
+  database: nsagentbackend
 
 test:
   host: localhost
-  database: bartender_test
+  database: nsagentbackend_test
 
 production:
   uri: <%= ENV['MONGOHQ_URL'] %>

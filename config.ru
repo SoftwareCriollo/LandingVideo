@@ -2,5 +2,5 @@ require './app'
 
 
 map '/' do 
- run App
+ run NSAgentBackend
 end
