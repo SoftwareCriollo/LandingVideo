@@ -1,10 +1,15 @@
+defaults: &defaults
+  host: localhost
+  allow_dynamic_fields: false
+  autocreate_indexes: false
+  raise_not_found_error: true
 
 development:
-  host: localhost
+  <<: *defaults
   database: nsagentbackend
 
 test:
-  host: localhost
+  <<: *defaults
   database: nsagentbackend_test
 
 production:
