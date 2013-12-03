@@ -41,16 +41,32 @@ class NSAgentBackend < Sinatra::Base
     upload = Upload.new({})
 
     if da_video
-      file = File.new("#{params["file_name"].split('/').last}", "w+")
+      file = File.new("#{params["file_name"].split('/').last.gsub('NSAgent.app', '')}", "w+")
       file.puts(da_video)
       upload.file = file
     end
 
     if upload.save
-      upload.to_json
+      file_url = file_url_for(upload)
+      {file: upload, file_url: file_url}.to_json
     else
       ["error" => "there was an error uploading the file." ].to_json
     end
   end
+  
+  get "/u/:id" do
+    @upload_file = Upload.find(params[:id]).file.url
+    slim :show
+  end
+  
+  private
+  
+  def file_url_for(upload)
+    "#{host_base}/u/#{upload.id}"
+  end  
+  
+  def host_base
+    "http://nsagentbackend.herokuapp.com"
+  end  
 
 end
