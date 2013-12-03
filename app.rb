@@ -34,18 +34,17 @@ class NSAgentBackend < Sinatra::Base
   post "/upload" do
     content_type :json
  
-    #if params["file"] && params["file"] != ""
-    #  da_image = params["file"].unpack("m0")
-    #end
+    if params["file"] && params["file"] != ""
+      da_video = params["file"].unpack("m0")
+    end
 
-    #params.delete("file")
-    upload = Upload.new(params)
+    upload = Upload.new({})
 
-    #if da_image
-    #  file = File.new(meal.id.to_s, "w+")
-    # file.puts(da_image)
-    #  meal.image = file
-    #end
+    if da_video
+      file = File.new("#{params["file_name"].split('/').last}", "w+")
+      file.puts(da_video)
+      upload.file = file
+    end
 
     if upload.save
       upload.to_json
