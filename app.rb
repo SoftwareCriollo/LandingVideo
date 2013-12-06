@@ -31,6 +31,12 @@ class NSAgentBackend < Sinatra::Base
    erb :index
   end
 
+  get "/last" do 
+    @upload_file = Upload.last
+    slim :show
+  end
+ 
+
   post "/upload" do
     content_type :json
  
@@ -58,7 +64,8 @@ class NSAgentBackend < Sinatra::Base
     @upload_file = Upload.find(params[:id]).file.url
     slim :show
   end
-  
+
+ 
   private
   
   def file_url_for(upload)
