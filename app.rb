@@ -32,7 +32,7 @@ class NSAgentBackend < Sinatra::Base
   end
 
   get "/last" do 
-    @upload_file = Upload.last
+    @upload_file = Upload.last.file.url
     slim :show
   end
  
