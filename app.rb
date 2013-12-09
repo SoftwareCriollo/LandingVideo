@@ -73,7 +73,7 @@ class NSAgentBackend < Sinatra::Base
   end  
   
   def host_base
-    "http://nsagentbackend.herokuapp.com"
+    "http://video.softwarecriollo.com"
   end  
 
 end
