@@ -1,8 +1,8 @@
 CarrierWave.configure do |config|
   config.fog_credentials = {
     :provider               => 'AWS',                        # required
-    :aws_access_key_id      => 'AKIAIT5ZEEDC7JVYWICQ',                        # required
-    :aws_secret_access_key  => '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'                        # required
+    :aws_access_key_id      => 'AKIAJBEHTPHY7TQS65ZA',                        # required
+    :aws_secret_access_key  => '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'                        # required
   }
   config.fog_directory  = 'chalbaudvideos'                        # required
   config.fog_public     = false                                   # optional, defaults to true
