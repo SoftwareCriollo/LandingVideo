@@ -8,6 +8,15 @@
 }
 
 @font-face {
+    font-family: 'roboto-medium';
+    src: url('/typography/roboto-medium-webfont.eot');
+    src: url('/typography/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/typography/roboto-medium-webfont.woff') format('woff'),
+         url('/typography/roboto-medium-webfont.ttf') format('truetype'),
+         url('/typography/roboto-medium-webfont.svg#museo_sans500') format('svg');
+}
+
+@font-face {
     font-family: 'adelle-talic';
     src: url('/typography/adelle-lightitalic-webfont.eot');
     src: url('/typography/adelle-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
@@ -85,14 +94,24 @@ h1 {
 
 
 h2 {
-	font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
+	font-family: "roboto-medium", "HelveticaNeue-Light", "arial", "Sans-serif";
 	font-weight: lighter;
-	letter-spacing: -1px;
-	font-size: 2em;	
 	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.4em;
+	letter-spacing: 0.75px;
+	line-height: 2.5em
 }
 
-p, a {
+h3 {
+	font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
+	font-weight: lighter;
+	font-size: 1.3em;
+	letter-spacing: 0.75px;
+	line-height: 2.5em
+}
+
+p, a, li {
 	line-height: 1.6em;
 	font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
 	font-weight: lighter;	
@@ -108,6 +127,21 @@ a:hover {
 	color: #5b3d75;
 }
 
+li {
+	text-align: left;
+	padding: 0 20px;
+
+}
+
+ul li{
+	list-style-type: circle;
+	list-style-position: inside;
+	padding: 0 0 0 30px !important;
+	    text-indent: -1em;
+
+}
+
+
 /**SPECIFIC**/
 
 .header {
@@ -118,7 +152,7 @@ a:hover {
 .pitch {
 	width: 100%;
 	border-bottom: 1px solid #ccc;
-	height: 470px;
+	height: 480px;
 }
 
 a .button {
@@ -144,7 +178,7 @@ a .button:hover {
 .bottom-fold {
 	background-color: #EDEDED;
 	border-bottom: 1px solid #ccc;
-	min-height: 720px;
+	min-height: 950px;
 	padding: 3% 0;
 }
 
@@ -158,9 +192,10 @@ a .button:hover {
 .threecolumn {
 	width: 28%;
 	background-color: white;
-	margin: 0 2% 0 0;
-	padding: 3% 1%;
+	margin: 2% 2% 2% 0;
+	padding: 5% 1%;
 	text-align: center;
+	min-height: 325px;
 }
 
 .bottom-fold .title {
@@ -172,13 +207,6 @@ a .button:hover {
 	margin: 0 2% 0 0;
 	padding: 1%;
 	text-align: center;
-}
-
-.fourcolumn h2, .threecolumn h2 {
-	text-transform: uppercase;
-	font-size: 1.3em;
-	letter-spacing: 0.75px;
-	line-height: 2.5em;
 }
 
 p.small {
@@ -207,6 +235,35 @@ p.small {
 
 .footer {
 	width: 100%;
-	background-color: #232426;
-	height: 200px;
+	background-image: url('/images/footer-bg.png');
+	height: 130px;
+}
+
+.created {
+	width: 20%;
+	margin: 2% 6% 2% 0;
+}
+
+.created img {
+	width: 100%;
+}
+
+.created .italic{
+	color: white;
+	font-size: 1em !important;
+	text-align: center;
+}
+
+.contact {
+	width: 30%;
+	margin: 4% 0 0 0;
+}
+
+.contact p {
+	color: white;
+	line-height: 1em;
+}
+
+p .smaller {
+	font-size: 0.5em !important;
 }
