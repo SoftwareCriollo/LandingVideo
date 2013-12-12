@@ -62,10 +62,13 @@ class NSAgentBackend < Sinatra::Base
   
   get "/u/:id" do
     @upload_file = Upload.find(params[:id]).file.url
-    slim :show
+    slim :show, :locals => { :upload_file => @upload_file }
+  end
+ 
+  get('/') do
+    slim :"frontend/index", :layout => :"frontend/layout"
   end
 
- 
   private
   
   def file_url_for(upload)
@@ -76,9 +79,6 @@ class NSAgentBackend < Sinatra::Base
     "http://video.softwarecriollo.com"
   end  
 
-  get('/') do 
-    slim :"frontend/index", :layout => :"frontend/layout"
-  end
 
 
 end
