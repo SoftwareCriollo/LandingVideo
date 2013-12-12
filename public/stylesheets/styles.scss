@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('/typography/roboto-light-webfont.eot');
+    src: url('/typography/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/typography/roboto-light-webfont.woff') format('woff'),
+         url('/typography/roboto-light-webfont.ttf') format('truetype'),
+         url('/typography/roboto-light-webfont.svg#museo_sans500') format('svg');
+}
+
+@font-face {
+    font-family: 'adelle-talic';
+    src: url('/typography/adelle-lightitalic-webfont.eot');
+    src: url('/typography/adelle-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/typography/adelle-lightitalic-webfont.woff') format('woff'),
+         url('/typography/adelle-lightitalic-webfont.ttf') format('truetype'),
+         url('/typography/adelle-lightitalic-webfont.svg#museo_sans500') format('svg');
+}
+
+@font-face {
+    font-family: 'hype';
+    src: url('/typography/hype-webfont.eot');
+    src: url('/typography/hype-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/typography/hype-webfont.woff') format('woff'),
+         url('/typography/hype-webfont.ttf') format('truetype'),
+         url('/typography/hype-webfont.svg#museo_sans500') format('svg');
+}
+
+/**GENERAL**/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.logo img {
+	width: 15%;
+}
+
+.line,  .line.small{
+	width: 100%;
+	border-top: #ccc solid 1px;
+	margin: 4% 0;
+}
+
+.line.small {
+	width: 50%;
+	margin: 1% auto;
+}
+
+/**POSITIONS**/
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*TYPOGRAPHY*/
+
+h1, h2, h3, h4, h5, p {
+	font-family: "HelveticaNeue-Light", "Arial", "Sans-serif";
+	color: #232426;
+}
+
+h1 {
+	font-size: 4.4em;
+	line-height: 1em;
+	margin: 0 0 0.25em 0;
+	font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
+	font-weight: lighter;
+	letter-spacing: -2px;
+}
+
+
+
+h2 {
+	font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
+	font-weight: lighter;
+	letter-spacing: -1px;
+	font-size: 2em;	
+	text-align: center;
+}
+
+p, a {
+	line-height: 1.6em;
+	font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
+	font-weight: lighter;	
+	font-size: 1.1em;
+}
+
+a {
+	text-decoration: none;
+	color: #45ADA8;
+}
+
+a:hover {
+	color: #5b3d75;
+}
+
+/**SPECIFIC**/
+
+.header {
+	border-bottom: 1px solid #EDEDED;
+	padding: 0.5%;
+}
+
+.pitch {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	height: 470px;
+}
+
+a .button {
+	background-color: #45ADA8;
+	width: 40%;
+	text-align: center;
+	padding: 4% 0;
+	margin: 3% auto ;
+}
+
+a .button:hover {
+	background-color: #5b3d75;
+}
+
+.button p {
+	font-family: "hype", "HelveticaNeue-Light";
+	font-size: 2.3em;
+	letter-spacing: 0.05em;
+	line-height: 0;
+	color: white;
+}
+
+.bottom-fold {
+	background-color: #EDEDED;
+	border-bottom: 1px solid #ccc;
+	min-height: 720px;
+	padding: 3% 0;
+}
+
+.italic {
+	font-family: "adelle-italic";
+	font-weight: lighter !important;
+	font-size: 0.6em !important;
+	letter-spacing: 0;
+}
+
+.threecolumn {
+	width: 28%;
+	background-color: white;
+	margin: 0 2% 0 0;
+	padding: 3% 1%;
+	text-align: center;
+}
+
+.bottom-fold .title {
+	margin: 0 0 1% 0;
+}
+
+.fourcolumn {
+	width: 20%;
+	margin: 0 2% 0 0;
+	padding: 1%;
+	text-align: center;
+}
+
+.fourcolumn h2, .threecolumn h2 {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	letter-spacing: 0.75px;
+	line-height: 2.5em;
+}
+
+p.small {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.pitch .text{
+	width: 100%;
+	text-align: center;
+	margin: 5% 0 0 0;
+}
+
+.threecolumn .italic {
+	font-size: 2em !important;
+	color: #5b3d75;
+}
+
+.threecolumn .button p{
+	font-size: 1em;
+}
+
+.gumroad-button {
+	margin: 6% 0 0 0;
+	}
+
+.footer {
+	width: 100%;
+	background-color: #232426;
+	height: 200px;
+}
