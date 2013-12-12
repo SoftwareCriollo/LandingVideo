@@ -27,7 +27,7 @@ class NSAgentBackend < Sinatra::Base
     end
   end
 
-  get '/' do
+  get '/backend' do
    erb :index
   end
 
@@ -68,5 +68,10 @@ class NSAgentBackend < Sinatra::Base
   def host_base
     "http://nsagentbackend.herokuapp.com"
   end  
+
+  get('/') do 
+    slim :"frontend/index", :layout => :"frontend/layout"
+  end
+
 
 end

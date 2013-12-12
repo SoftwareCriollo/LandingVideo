@@ -11,6 +11,8 @@ gem 'unicorn'
 gem 'carrierwave-mongoid'
 gem "fog", "~> 1.3.1"
 gem "aws-s3"
+gem 'rb-fsevent', '~> 0.9'
+
 
 group :development do
   gem 'foreman'
