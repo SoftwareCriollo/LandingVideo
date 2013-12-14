@@ -76,7 +76,8 @@ h3 {
   font-weight: lighter;
   font-size: 1.3em;
   letter-spacing: 0.75px;
-  line-height: 2.5em; }
+  line-height: 2.5em;
+  text-align: left; }
 
 p, a, li {
   line-height: 1.6em;
@@ -93,13 +94,17 @@ a:hover {
 
 li {
   text-align: left;
-  padding: 0 20px; }
+  padding: 0 20px;
+  line-height: 1.3em;
+  margin: 0 0 1em 0; }
 
 ul li {
-  list-style-type: circle;
+  list-style-type: disc;
   list-style-position: inside;
-  padding: 0 0 0 30px !important;
   text-indent: -1em; }
+
+ul {
+  margin: 4% 0 0 0; }
 
 /**SPECIFIC**/
 .header {
@@ -129,9 +134,9 @@ a .button:hover {
   color: white; }
 
 .bottom-fold {
-  background-color: #EDEDED;
+  background-color: #ededed;
   border-bottom: 1px solid #ccc;
-  min-height: 950px;
+  min-height: 1000px;
   padding: 3% 0; }
 
 .italic {
@@ -141,19 +146,18 @@ a .button:hover {
   letter-spacing: 0; }
 
 .threecolumn {
-  width: 28%;
+  width: 26%;
   background-color: white;
   margin: 2% 2% 2% 0;
-  padding: 5% 1%;
-  text-align: center;
-  min-height: 325px; }
+  padding: 5% 1% 5% 3%;
+  min-height: 355px; }
 
 .bottom-fold .title {
   margin: 0 0 1% 0; }
 
 .fourcolumn {
   width: 20%;
-  margin: 0 2% 0 0;
+  margin: 0 2% 5% 0;
   padding: 1%;
   text-align: center; }
 
@@ -168,13 +172,11 @@ p.small {
 
 .threecolumn .italic {
   font-size: 2em !important;
-  color: #5b3d75; }
-
-.threecolumn .button p {
-  font-size: 1em; }
+  color: #5b3d75;
+  text-align: center; }
 
 .gumroad-button {
-  margin: 6% 0 0 0; }
+  margin: 6% 20%; }
 
 .footer {
   width: 100%;
