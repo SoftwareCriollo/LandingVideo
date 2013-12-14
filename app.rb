@@ -13,7 +13,7 @@ Mongoid.load!(this_dir + "config/mongoid.yml")
   Dir[dir_path].each { |file_name| require this_dir + "./#{file_name}"}
 end
 
-Slim::Engine.set_default_options :sections => true
+#Slim::Engine.set_default_options :sections => true
 
 class NSAgentBackend < Sinatra::Base
 
@@ -25,6 +25,11 @@ class NSAgentBackend < Sinatra::Base
     def partial(page, options={})
       haml page, options.merge!(:layout => false)
     end
+
+    def erb_partial(page, options={})
+      erb page, options.merge!(:layout => false)
+    end
+ 
   end
 
   get '/backend' do
