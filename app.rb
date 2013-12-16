@@ -37,7 +37,7 @@ class NSAgentBackend < Sinatra::Base
   end
 
   get "/last" do 
-    @upload_file = "https://chalbaudvideos.s3.amazonaws.com/uploads/2013-12-16-13_51_28--0600.mov?AWSAccessKeyId=AKIAJBEHTPHY7TQS65ZA&Signature=DKHoQj1wO611Sv%2BiIvruVGkbo6M%3D&Expires=1387228148"
+    @upload_file = Upload.last.file.url
     slim :show , :locals => { :upload_file => @upload_file }
   end
  
