@@ -1,0 +1,384 @@
+@media (min-width:320px) and (max-width: 399px){ 
+/* smartphones, iPhone, portrait 480x320 phones */ 
+	.logo img {
+		width: 35%;
+	}
+
+	.wrapper {
+		width: 97%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		line-height: 1em;
+		margin: 6% 0;
+	}
+
+	.pitch .text p {
+		font-size: 1.1em;
+		line-height: 1.4em;
+	}
+
+	a .button{
+		width: 95%;
+		padding: 3% 0 2% 0;
+	}
+
+	.pitch .button p {
+		font-size: 1.6em;
+	}
+
+	.pitch {
+		height: 390px;
+	}
+
+	.fourcolumn {
+		width: 95%;
+		margin: 1% 0;
+	}
+
+	h2 {
+		line-height: 1em;
+	}
+
+	.threecolumn {
+		width: 85%;
+		margin: 2% 0 0 10%;
+		min-height: 0;
+	}
+
+	.bottom-fold {
+		min-height: 1950px;
+	}
+
+	.contact {
+		width: 50%;
+		margin: 6% 0 0 0;
+	}
+
+	.created img {
+		width: 110%;
+	}
+
+	.created {
+		width: 35%;
+	}
+
+	.footer {
+		height: 70px;
+	}
+
+	.contact p, .contact a {
+		font-size: 0.8em;
+	}
+}
+
+@media (min-width:400px) and (max-width: 479px){ 
+/* smartphones, iPhone, portrait 480x320 phones */ 
+	.logo img {
+		width: 35%;
+	}
+
+	.wrapper {
+		width: 97%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+		line-height: 1em;
+		margin: 6% 0;
+	}
+
+	.pitch .text p {
+		font-size: 1em;
+		line-height: 1.4em;
+	}
+
+	a .button{
+		width: 90%;
+		padding: 3% 0 2% 0;
+	}
+
+	.pitch .button p {
+		font-size: 2em;
+	}
+
+	.pitch {
+		height: 370px;
+	}
+
+	.fourcolumn {
+		width: 95%;
+		margin: 1% 0;
+	}
+
+	h2 {
+		line-height: 1em;
+	}
+
+	.threecolumn {
+		width: 75%;
+		margin: 2% 0 0 10%;
+		min-height: 0;
+	}
+
+	.bottom-fold {
+		min-height: 1950px;
+	}
+
+	.contact {
+		width: 50%;
+	}
+
+	.created img {
+		width: 120%;
+	}
+
+	.created {
+		width: 30%;
+	}
+
+	.footer {
+		height: 80px;
+	}
+
+	.contact p, .contact a {
+		font-size: 1em;
+	}
+}
+
+@media (min-width:480px) and (max-width: 640px){ 
+/* smartphones, iPhone, portrait 480x320 phones */ 
+	.logo img {
+		width: 30%;
+	}
+
+	.wrapper {
+		width: 95%;
+	}
+
+	h1 {
+		font-size: 2.8em;
+		line-height: 1.2em;
+	}
+
+	.pitch .text p {
+		font-size: 1.1em;
+		line-height: 1.4em;
+	}
+
+	a .button{
+		width: 90%;
+		padding: 3% 0 2% 0;
+	}
+
+	.pitch .button p {
+		font-size: 2em;
+	}
+
+	.pitch {
+		height: 420px;
+	}
+
+	.fourcolumn {
+		width: 95%;
+		margin: 1% 0;
+	}
+
+	h2 {
+		line-height: 1em;
+	}
+
+	.threecolumn {
+		width: 65%;
+		margin: 2% 0 0 15%;
+		min-height: 0;
+	}
+
+	.bottom-fold {
+		min-height: 1950px;
+	}
+
+	.contact {
+		width: 50%;
+	}
+
+	.created img {
+		width: 120%;
+	}
+
+	.created {
+		width: 30%;
+	}
+
+	.footer {
+		height: 90px;
+	}
+}
+
+@media (min-width:641px) and (max-width: 767px){ 
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	.logo img {
+		width: 20%;
+	}
+
+	.wrapper {
+		width: 95%;
+	}
+
+	h1 {
+		font-size: 3.5em;
+	}
+
+	.pitch .text p {
+		font-size: 1.5em;
+		line-height: 1.4em;
+	}
+
+	a .button{
+		width: 70%;
+		padding: 3% 0 2% 0;
+	}
+
+	.pitch .button p {
+		font-size: 2.25em;
+	}
+
+	.pitch {
+		height: 450px;
+	}
+
+	.fourcolumn {
+		width: 43%;
+	}
+
+	h2 {
+		line-height: 1.5em;
+	}
+
+	.threecolumn {
+		width: 28%;
+		margin: 2% 1% 2% 0;
+		min-height: 450px;
+	}
+
+	li, a {
+		font-size: 1em;
+	}
+
+	.gumroad-button {
+		width: 78%;
+		margin: 30% 0 0 0;
+	}
+
+	.bottom-fold {
+		min-height: 1200px;
+	}
+
+	.contact {
+		width: 40%;
+	}
+
+	.footer {
+		height: 100px;
+	}
+
+	.created img {
+		width: 120%;
+	}
+}
+
+@media (min-width:768px) and (max-width: 1023px) { 
+	.logo img {
+		width: 20%;
+	}
+
+	.wrapper {
+		width: 95%;
+	}
+
+	h1 {
+		font-size: 4.3em;
+	}
+
+	.pitch .text p {
+		font-size: 1.5em;
+		line-height: 1.4em;
+	}
+
+	a .button{
+		width: 60%;
+		padding: 3% 0 2% 0;
+	}
+
+	.pitch .button p {
+		font-size: 2.25em;
+	}
+
+	.pitch {
+		height: 500px;
+	}
+
+	.fourcolumn {
+		width: 43%;
+	}
+
+	h2 {
+		line-height: 1.5em;
+	}
+
+	.threecolumn {
+		width: 28%;
+		margin: 2% 1% 2% 0;
+		min-height: 372px;
+	}
+
+	.gumroad-button {
+		width: 78%;
+		margin: 20% 0 0 0;
+	}
+
+	li, a {
+		font-size: 1em;
+	}
+
+	.bottom-fold {
+		min-height: 1100px;
+	}
+}
+
+
+@media (min-width:1024px) and (max-width: 1280px) { 
+/* big landscape tablets, laptops, and desktops */ 
+	.wrapper {
+		width: 95%;
+	}
+
+	h1 {
+		font-size: 4.3em;
+	}
+
+	h2 {
+		font-size: 1.3em;
+	}
+
+	p, li {
+		font-size: 1.05em;
+		letter-spacing: -0.5px;
+	}
+
+	p.small {
+		font-size: 0.7em;
+	}
+
+	.threecolumn {
+		width: 27%;
+	}
+}
+
+@media (min-width:1281px){ 
+/* hi-res laptops and desktops */ 
+  .wrapper {
+  	width: 90%;
+  }
+}
