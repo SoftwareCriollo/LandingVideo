@@ -6,17 +6,17 @@
 @font-face {
   font-family: 'roboto-medium';
   src: url("/typography/roboto-medium-webfont.eot");
-  src: url("/typography/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/roboto-medium-webfont.woff") format("woff"), url("/typography/roboto-medium-webfont.ttf") format("truetype"), url("/typography/roboto-medium-webfont.svg#museo_sans500") format("svg"); }
+  src: url("/typography/roboto-medium-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/roboto-medium-webfont.woff") format("woff"), url("/typography/roboto-medium-webfont.ttf") format("truetype"), url("/typography/roboto-medium-webfont.svg#roboto-medium") format("svg"); }
 
 @font-face {
   font-family: 'adelle-italic';
   src: url("/typography/adelle-lightitalic-webfont.eot");
-  src: url("/typography/adelle-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/adelle-lightitalic-webfont.woff") format("woff"), url("/typography/adelle-lightitalic-webfont.ttf") format("truetype"), url("/typography/adelle-lightitalic-webfont.svg#museo_sans500") format("svg"); }
+  src: url("/typography/adelle-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/adelle-lightitalic-webfont.woff") format("woff"), url("/typography/adelle-lightitalic-webfont.ttf") format("truetype"), url("/typography/adelle-lightitalic-webfont.svg#adelle-lightitalic") format("svg"); }
 
 @font-face {
   font-family: 'hype';
   src: url("/typography/hype-webfont.eot");
-  src: url("/typography/hype-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/hype-webfont.woff") format("woff"), url("/typography/hype-webfont.ttf") format("truetype"), url("/typography/hype-webfont.svg#museo_sans500") format("svg"); }
+  src: url("/typography/hype-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/hype-webfont.woff") format("woff"), url("/typography/hype-webfont.ttf") format("truetype"), url("/typography/hype-webfont.svg#hype") format("svg"); }
 
 /**GENERAL**/
 * {
@@ -205,3 +205,11 @@ p.small {
 
 p .smaller {
   font-size: 0.5em !important; }
+
+.video-footer {
+  text-align: center;
+  margin: 2% 0 0 0; }
+
+.video-footer p {
+  color: white !important;
+  font-family: "adelle-italic", "arial", "Sans-serif"; }
