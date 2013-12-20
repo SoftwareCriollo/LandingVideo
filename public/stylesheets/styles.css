@@ -18,6 +18,11 @@
   src: url("/typography/hype-webfont.eot");
   src: url("/typography/hype-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/hype-webfont.woff") format("woff"), url("/typography/hype-webfont.ttf") format("truetype"), url("/typography/hype-webfont.svg#hype") format("svg"); }
 
+@font-face {
+  font-family: 'avenir';
+  src: url("/typography/avenir-webfont.eot");
+  src: url("/typography/avenir-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/avenir-webfont.woff") format("woff"), url("/typography/avenir-webfont.ttf") format("truetype"), url("/typography/avenir-webfont.svg#avenirbook") format("svg"); }
+
 /**GENERAL**/
 * {
   padding: 0;
@@ -36,7 +41,7 @@
 .line, .line.small {
   width: 100%;
   border-top: #ccc solid 1px;
-  margin: 4% 0; }
+  margin: 2% 0; }
 
 .line.small {
   width: 50%;
@@ -55,39 +60,42 @@ h1, h2, h3, h4, h5, p {
   color: #232426; }
 
 h1 {
-  font-size: 4.4em;
-  line-height: 1em;
-  margin: 0 0 0.25em 0;
-  font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
+  font-size: 3em;
+  font-family: "avenir", "HelveticaNeue-Light", "arial", "Sans-serif";
   font-weight: lighter;
-  letter-spacing: -2px; }
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center; }
 
 h2 {
-  font-family: "roboto-medium", "HelveticaNeue-Light", "arial", "Sans-serif";
-  font-weight: lighter;
+  font-family: "avenir", "HelveticaNeue-Light", "arial", "Sans-serif";
+  font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.4em;
-  letter-spacing: 0.75px;
-  line-height: 2.5em; }
+  font-size: 10.5em;
+  color: white;
+  line-height: 1em; }
 
 h3 {
-  font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
+  font-family: "adelle-lightitalic", "HelveticaNeue-Light", "arial", "Sans-serif";
   font-weight: lighter;
-  font-size: 1.3em;
+  font-size: 1.8em;
   letter-spacing: 0.75px;
-  line-height: 2.5em;
-  text-align: left; }
+  text-align: center;
+  color: white;
+  line-height: 2em; }
 
 p, a, li {
   line-height: 1.6em;
-  font-family: "roboto", "HelveticaNeue-Light", "arial", "Sans-serif";
+  font-family: "avenir", "HelveticaNeue-Light", "arial", "Sans-serif";
   font-weight: lighter;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  letter-spacing: -0.5px; }
 
 a {
   text-decoration: none;
-  color: #45ADA8; }
+  color: #db4747; }
 
 a:hover {
   color: #5b3d75; }
@@ -108,35 +116,37 @@ ul {
 
 /**SPECIFIC**/
 .header {
-  border-bottom: 1px solid #EDEDED;
-  padding: 0.5%; }
+  padding: 1% 0 1.5% 0;
+  height: 3px; }
 
 .pitch {
   width: 100%;
   border-bottom: 1px solid #ccc;
-  height: 480px; }
+  height: 680px;
+  background: url("/images/blurvideo.mp4"); }
 
 a .button {
-  background-color: #45ADA8;
-  width: 40%;
+  background-color: #db4747;
+  width: 45%;
   text-align: center;
-  padding: 4% 0;
+  padding: 4% 0 3.5% 0;
   margin: 3% auto; }
 
 a .button:hover {
   background-color: #5b3d75; }
 
 .button p {
-  font-family: "hype", "HelveticaNeue-Light";
+  font-family: "avenir", "HelveticaNeue-Light";
   font-size: 2.3em;
   letter-spacing: 0.05em;
   line-height: 0;
-  color: white; }
+  color: white;
+  font-weight: 500; }
 
 .bottom-fold {
   background-color: #ededed;
   border-bottom: 1px solid #ccc;
-  min-height: 1000px;
+  min-height: 970px;
   padding: 3% 0; }
 
 .italic {
@@ -147,10 +157,14 @@ a .button:hover {
 
 .threecolumn {
   width: 26%;
-  background-color: white;
   margin: 2% 2% 2% 0;
-  padding: 5% 1% 5% 3%;
-  min-height: 355px; }
+  padding: 0 2%;
+  text-align: center; }
+
+.prices .threecolumn {
+  background-color: white;
+  padding: 4% 1% 2% 3%;
+  min-height: 400px; }
 
 .bottom-fold .title {
   margin: 0 0 1% 0; }
@@ -161,6 +175,13 @@ a .button:hover {
   padding: 1%;
   text-align: center; }
 
+.threecolumn h2 {
+  color: black;
+  font-weight: 100 !important;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  line-height: 2.5em; }
+
 p.small {
   font-size: 0.8em;
   font-style: italic; }
@@ -168,7 +189,10 @@ p.small {
 .pitch .text {
   width: 100%;
   text-align: center;
-  margin: 5% 0 0 0; }
+  margin: 3% 0 0 0; }
+
+.text h1 {
+  text-align: center; }
 
 .threecolumn .italic {
   font-size: 2em !important;
@@ -176,12 +200,18 @@ p.small {
   text-align: center; }
 
 .gumroad-button {
-  margin: 6% 20%; }
+  margin: 6% 0; }
+
+.threecolumn.lowerbutton .gumroad-button {
+  margin: 24% 0 0 0 !important; }
+
+.gumroad-button.lower {
+  margin: 10% 0 0 0; }
 
 .footer {
   width: 100%;
   background-image: url("/images/footer-bg.png");
-  height: 130px; }
+  height: 150px; }
 
 .created {
   width: 20%;
@@ -213,3 +243,34 @@ p .smaller {
 .video-footer p {
   color: white !important;
   font-family: "adelle-italic", "arial", "Sans-serif"; }
+
+#video_background {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 4000%;
+  max-height: 4000%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden; }
+
+.line {
+  width: 100%;
+  height: 1px;
+  color: white;
+  opacity: 0.2; }
+
+.line.darker {
+  color: black;
+  opacity: 0.5;
+  width: 95%; }
+
+.contact a {
+  text-transform: uppercase;
+  margin: 0 7% 0 0;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 0.5px; }

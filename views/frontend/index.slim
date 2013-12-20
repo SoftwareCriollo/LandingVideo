@@ -1,79 +1,77 @@
 .header
 	.wrapper
 	  .logo
-	    img src="/NSAgent-loguito.svg"
+	    img src="/images/softwarecriollo-logo.svg"
+.line
 .pitch
   .wrapper
 	  .text.left
-	    h1 The simplest way to record and share videos from your computer.
-	    p Need to explain further an idea? Demo a feature? Show some progress? You are only only one click away!
-	    br
+      video id="video_background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" 
+        source src="/images/blurvideo.m4v" type="video/webm"
+        source src="/images/blurvideo.m4v" type="video/mp4"
+        Video not supported
+      h1 Working, reliable software
+      h3 and most importantly
+      h2 Bug Free
+      br
 			a href="#products" class="smoothScroll"
 				.button
-					p DOWNLOAD NOW <span class="italic">- for Mac </span>
+					p MAKE IT HAPPEN 
 	  .clear
 .bottom-fold
   .wrapper 
     .text
-      .fourcolumn.left
-				img src="/images/install.png"
-				h2 Install
-				p Drag NSAgent app into your Applications folder.
-      .fourcolumn.left
-				img src="/images/record.png"
-				h2 Start Recording
-				p Simply click on the application icon and start recording your video. 
-      .fourcolumn.left
-				img src="/images/upload.png"
-				h2 Upload
-				p Once you are done, stop recording and wait for the video to upload itself. 
-      .fourcolumn.left
-				img src="/images/share.png"
-				h2 Share
-				p Your video's URL will be copied to your clipboard, you can now share your video.
-				p.small Customizable URL in PREMIUM version.
-
+      .threecolumn.left
+				img src="/images/bug.svg"
+				h2 Explain your bugs
+				p We need to know exactly what's wrong, so we can fix it. Write down all stories and include an acceptance criteria. We also ask to have a video supporting the explanation of the story.<a href=""> See an example.</a><br/><a href="http://nsagent.softwarecriollo.com/", target=_blank>To quickly record videos, click here.</a>
+      .threecolumn.left
+				img src="/images/setup.svg"
+				h2 Project set up
+				p We create a <a href="https://trello.com", target=_blank>Trello</a> board with all the stories and information about them. In this step we will also need access to the Github repo of the project. We verify everything is good to go to start working.
+      .threecolumn.left
+				img src="/images/fix.svg"
+				h2 Let's fix them!
+				p We get to work. We update stories in the Trello board with screenshots and videos. You review stories and accept the solution or reject it. If rejected we will revisit until accepted. We send weekly reports which details the time spent in 2 hour increments.
     .clear
-    .line
+    .line.darker
     .text#products
-      .threecolumn.left
-        h2 Open Source
-        p.italic free
-        .line.small
-        br
-        ul
-        	li Fully customizable
-        	li Needs RubyMotion license
-        	li Need a consultation? <a href="mailto:support@softwarecriollo.com">Let's talk.</a>
-        br
-        p
-          a href="http://nsagent.softwarecriollo.com/NSAgent.zip" target="blank" Download
-        p
-          a href="https://github.com/ivanacostarubio/NSAgent" target="blank" You can get the code in Github.
-      .threecolumn.left
-        h2 Basic
-        p.italic $9.99
-        .line.small
-        br
-        ul
-	        li Record and share your videos in a simple and easy way.
-        	li Files are stored for 30 days.
-        a href="https://gum.co/BxXN" class="gumroad-button" DOWNLOAD NOW
-      .threecolumn.left
-        h2 Premium
-        p.italic $9.99 <span class="smaller">/month</span>
-        .line.small
-        br
-        ul 
-        	li Customize the sharing URL
-        	li Customize the video page with your company's branding.
-        a href="https://gum.co/uNjp" class="gumroad-button" DOWNLOAD NOW
+      .prices
+        .threecolumn.left
+          h2 Consultation
+          p.italic free
+          .line.small
+          br
+          ul
+          	li Speak with one of our team members for 15 minutes to learn a bit more about your project needs.
+          	li Our Skype ID is SoftwareCriollo
+          br
+            a href="http://demeter.bakedweb.net/meeting" target="blank" Let us know when is a good time for you.
+        .threecolumn.lowerbutton.left
+          h2 Basic
+          p.italic 20 hours
+          .line.small
+          br
+          ul
+            li Perfect for solving a couple of bugs or establishing an initial speed.
+  	        li One member of our team dedicated to your project for 20 hours in one week.
+          a href="" class="gumroad-button" GET BASIC PLAN NOW
+        .threecolumn.left
+          h2 Premium
+          p.italic 40 hours
+          .line.small
+          br
+          ul 
+          	li Perfect for buggy systems. You know you have several bugs and you want them solved as soon as possible.
+            li One member of our team dedicated to your project for 40 hours in one week.
+            li Best hourly rate.
+          a href="" class="gumroad-button" GET PREMIUM PLAN NOW
 
 .footer
   .wrapper
     .contact.left
-      p If you wish to drop us a line
-      a href="mailto:support@softwarecriollo.com" support@softwarecriollo.com
+      a href="" be part of our team
+      a href="mailto:support@softwarecriollo.com" support
     .created.right
       p.italic created by
       a href="http://softwarecriollo.com/" target="_blank"
