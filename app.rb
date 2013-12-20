@@ -3,11 +3,6 @@ require 'sinatra/base'
 require 'slim'
 require 'sass'
 
-
-['models/**/*'].each do |dir_path|
-  Dir[dir_path].each { |file_name| require this_dir + "./#{file_name}"}
-end
-
 #Slim::Engine.set_default_options :sections => true
 
 class NSAgentBackend < Sinatra::Base
