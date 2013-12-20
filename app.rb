@@ -2,12 +2,7 @@ require 'rubygems'
 require 'sinatra/base'
 require 'slim'
 require 'sass'
-require 'mongoid'
-require 'carrierwave'
-require 'carrierwave/mongoid'
 
-this_dir = Pathname.new(File.dirname(__FILE__))
-Mongoid.load!(this_dir + "config/mongoid.yml")
 
 ['models/**/*'].each do |dir_path|
   Dir[dir_path].each { |file_name| require this_dir + "./#{file_name}"}
