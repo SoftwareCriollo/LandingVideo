@@ -1,7 +1,11 @@
 @media (min-width:300px) and (max-width: 399px){ 
 /* smartphones, iPhone, portrait 480x320 phones */ 
 	.logo img {
-		width: 35%;
+		width: 40%;
+	}
+
+	.header {
+		height: 20px;
 	}
 
 	.wrapper {
@@ -9,19 +13,23 @@
 	}
 
 	h1 {
-		font-size: 2.5em;
-		line-height: 1em;
-		margin: 6% 0;
+		font-size: 2em;
+		line-height: 1.2em;
+		letter-spacing: -1px;
 	}
 
-	.pitch .text p {
-		font-size: 1.1em;
-		line-height: 1.4em;
+	h3 {
+		font-size: 1.3em;
+	}
+
+	.pitch .text {
+		margin: 25% 0 0 0;
 	}
 
 	a .button{
-		width: 95%;
-		padding: 3% 0 2% 0;
+		width: 100%;
+		padding: 13% 0;
+		margin: 10% 0 0 0;
 	}
 
 	.pitch .button p {
@@ -29,30 +37,27 @@
 	}
 
 	.pitch {
-		height: 390px;
-	}
-
-	.fourcolumn {
-		width: 95%;
-		margin: 1% 0;
+		height: 650px;
 	}
 
 	h2 {
-		line-height: 1em;
+		line-height: 0.85em;
+		font-size: 5.5em;
+		letter-spacing: -2px;
 	}
 
 	.threecolumn {
-		width: 85%;
-		margin: 2% 0 0 10%;
+		width: 95%;
+		margin: 2% 0 10% 1%;
 		min-height: 0;
 	}
 
 	.bottom-fold {
-		min-height: 1950px;
+		min-height: 2300px;
 	}
 
 	.contact {
-		width: 50%;
+		width: 60%;
 		margin: 6% 0 0 0;
 	}
 
@@ -61,7 +66,7 @@
 	}
 
 	.created {
-		width: 35%;
+		width: 34%;
 	}
 
 	.footer {
@@ -69,8 +74,18 @@
 	}
 
 	.contact p, .contact a {
-		font-size: 0.8em;
+		font-size: 0.75em;
+		letter-spacing: -0.5px;
 	}
+
+	.prices .threecolumn {
+		min-height: 400px;
+	}
+
+	.threecolumn.lowerbutton .gumroad-button {
+		margin: 5% 0 0 0 !important;
+	}
+
 }
 
 @media (min-width:400px) and (max-width: 479px){ 
@@ -79,24 +94,27 @@
 		width: 35%;
 	}
 
+	.header {
+		height: 25px;
+	}
+
 	.wrapper {
 		width: 97%;
 	}
 
 	h1 {
-		font-size: 2.5em;
-		line-height: 1em;
-		margin: 6% 0;
+		font-size: 2em;
+		line-height: 1.2em;
 	}
 
-	.pitch .text p {
-		font-size: 1em;
-		line-height: 1.4em;
+	.pitch .text{
+		margin: 20% 0 0 0;
 	}
 
 	a .button{
-		width: 90%;
-		padding: 3% 0 2% 0;
+		width: 100%;
+		padding: 10% 0;
+		margin: 10% 0;
 	}
 
 	.pitch .button p {
@@ -104,30 +122,36 @@
 	}
 
 	.pitch {
-		height: 370px;
-	}
-
-	.fourcolumn {
-		width: 95%;
-		margin: 1% 0;
+		height: 700px;
 	}
 
 	h2 {
-		line-height: 1em;
+		line-height: 0.85em;
+		font-size: 7em;
+		letter-spacing: -2px;
+	}
+
+	h3 {
+		font-size: 1.5em;
+		line-height: 2em;
 	}
 
 	.threecolumn {
-		width: 75%;
-		margin: 2% 0 0 10%;
+		width: 90%;
+		margin: 2% 0 10% 2%;
 		min-height: 0;
 	}
 
+	.prices .threecolumn {
+		min-height: 350px;
+	}
+
 	.bottom-fold {
-		min-height: 1950px;
+		min-height: 2250px;
 	}
 
 	.contact {
-		width: 50%;
+		width: 60%;
 	}
 
 	.created img {
@@ -143,14 +167,23 @@
 	}
 
 	.contact p, .contact a {
-		font-size: 1em;
+		font-size: 0.75em;
 	}
+
+	.threecolumn.lowerbutton .gumroad-button {
+		margin: 5% 0 0 0 !important;
+	}
+
 }
 
 @media (min-width:480px) and (max-width: 640px){ 
 /* smartphones, iPhone, portrait 480x320 phones */ 
 	.logo img {
-		width: 30%;
+		width: 35%;
+	}
+
+	.header {
+		height: 30px;
 	}
 
 	.wrapper {
@@ -158,49 +191,50 @@
 	}
 
 	h1 {
-		font-size: 2.8em;
+		font-size: 2.5em;
 		line-height: 1.2em;
 	}
 
-	.pitch .text p {
-		font-size: 1.1em;
-		line-height: 1.4em;
+	.pitch .text {
+		margin: 17% 0 0 0;
 	}
 
 	a .button{
-		width: 90%;
-		padding: 3% 0 2% 0;
+		width: 100%;
+		padding: 10% 0;
 	}
 
 	.pitch .button p {
-		font-size: 2em;
+		font-size: 2.5em;
 	}
 
 	.pitch {
-		height: 420px;
-	}
-
-	.fourcolumn {
-		width: 95%;
-		margin: 1% 0;
+		height: 700px;
 	}
 
 	h2 {
-		line-height: 1em;
+		line-height: 0.85em;
+		font-size: 8em;
+		letter-spacing: -5px;
 	}
 
 	.threecolumn {
-		width: 65%;
-		margin: 2% 0 0 15%;
+		width: 90%;
+		margin: 2% 0 10% 3%;
 		min-height: 0;
 	}
 
+	.prices .threecolumn {
+		min-height: 350px;
+		margin: 2% 0 0 3%;
+	}
+
 	.bottom-fold {
-		min-height: 1950px;
+		min-height: 2150px;
 	}
 
 	.contact {
-		width: 50%;
+		width: 60%;
 	}
 
 	.created img {
@@ -214,12 +248,19 @@
 	.footer {
 		height: 90px;
 	}
+
+	.threecolumn.lowerbutton .gumroad-button {
+		margin: 5% 0 0 0 !important;
+	}
 }
 
 @media (min-width:641px) and (max-width: 767px){ 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 	.logo img {
-		width: 20%;
+		width: 25%;
+	}
+	.header {
+		height: 20px;
 	}
 
 	.wrapper {
@@ -227,56 +268,65 @@
 	}
 
 	h1 {
-		font-size: 3.5em;
-	}
-
-	.pitch .text p {
-		font-size: 1.5em;
-		line-height: 1.4em;
-	}
-
-	a .button{
-		width: 70%;
-		padding: 3% 0 2% 0;
-	}
-
-	.pitch .button p {
-		font-size: 2.25em;
-	}
-
-	.pitch {
-		height: 450px;
-	}
-
-	.fourcolumn {
-		width: 43%;
+		font-size: 2.8em;
 	}
 
 	h2 {
-		line-height: 1.5em;
+		line-height: 1em;
+		font-size: 5.6em;
+		letter-spacing: -2px;
+	}
+
+	.pitch {
+		height: 700px;
+	}
+
+	.pitch .text {
+		margin: 17% 0 0 0;
+	}
+
+	a .button{
+		width: 80%;
+		padding: 7% 0;
+	}
+
+	.pitch .button p {
+		font-size: 2.5em;
 	}
 
 	.threecolumn {
-		width: 28%;
+		width: 90%;
 		margin: 2% 1% 2% 0;
-		min-height: 450px;
+		min-height: 300px;
+		padding: 0 5%;
 	}
 
-	li, a {
-		font-size: 1em;
+	li, a, p {
+		font-size: 1.20em;
+	}
+
+	.prices .threecolumn{
+		padding: 5% 10%;
+		width: 65%;
+		margin: 0 0 5% 7%;
+		min-height: 400px;
 	}
 
 	.gumroad-button {
-		width: 78%;
-		margin: 30% 0 0 0;
+		width: 40%;
+		margin: 5% 0 0 0;
+	}
+
+	.threecolumn.lowerbutton .gumroad-button {
+		margin: 10% 0 0 0 !important;
 	}
 
 	.bottom-fold {
-		min-height: 1200px;
+		min-height: 2500px;
 	}
 
 	.contact {
-		width: 40%;
+		width: 60%;
 	}
 
 	.footer {
@@ -298,44 +348,40 @@
 	}
 
 	h1 {
-		font-size: 4.3em;
-	}
-
-	.pitch .text p {
-		font-size: 1.5em;
-		line-height: 1.4em;
-	}
-
-	a .button{
-		width: 60%;
-		padding: 3% 0 2% 0;
-	}
-
-	.pitch .button p {
-		font-size: 2.25em;
-	}
-
-	.pitch {
-		height: 500px;
-	}
-
-	.fourcolumn {
-		width: 43%;
+		font-size: 2.7em;
 	}
 
 	h2 {
-		line-height: 1.5em;
+		line-height: 1em;
+		font-size: 7em;
+		letter-spacing: -2px;
+	}
+
+	.pitch {
+		height: 700px;
+	}
+
+	.pitch .text {
+		margin: 12% 0 0 0;
+	}
+
+	a .button{
+		width: 70%;
+		padding: 6% 0;
+	}
+
+	.pitch .button p {
+		font-size: 2.5em;
 	}
 
 	.threecolumn {
 		width: 28%;
 		margin: 2% 1% 2% 0;
-		min-height: 372px;
 	}
 
 	.gumroad-button {
 		width: 78%;
-		margin: 20% 0 0 0;
+		margin: 10% 0 0 0;
 	}
 
 	li, a {
@@ -343,7 +389,20 @@
 	}
 
 	.bottom-fold {
-		min-height: 1100px;
+		min-height: 850px;
+	}
+
+	.threecolumn h2 {
+		font-size: 1.1em;
+		letter-spacing: 0;
+	}
+
+	.contact {
+		width: 50%;
+	}
+
+	.threecolumn.lowerbutton .gumroad-button {
+		margin: 29% 0 0 0 !important;
 	}
 }
 
@@ -355,11 +414,11 @@
 	}
 
 	h1 {
-		font-size: 4.3em;
+		font-size: 3em;
 	}
 
 	h2 {
-		font-size: 1.3em;
+		font-size: 9em;
 	}
 
 	p, li {
@@ -367,18 +426,22 @@
 		letter-spacing: -0.5px;
 	}
 
-	p.small {
-		font-size: 0.7em;
+	.pitch .text {
+		margin: 10% 0 0 0;
 	}
 
-	.threecolumn {
-		width: 27%;
+	.threecolumn a {
+		font-size: 1em;
 	}
 }
 
 @media (min-width:1281px){ 
 /* hi-res laptops and desktops */ 
   .wrapper {
-  	width: 90%;
+  	width: 95%;
+  }
+
+  .prices .threecolumn{
+  	min-height: 425px !important;
   }
 }
