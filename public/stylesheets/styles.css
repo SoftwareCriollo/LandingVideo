@@ -144,6 +144,7 @@ a .button:hover {
   font-weight: 500; }
 
 .bottom-fold {
+  overflow: hidden;
   background-color: #ededed;
   border-bottom: 1px solid #ccc;
   min-height: 890px;
