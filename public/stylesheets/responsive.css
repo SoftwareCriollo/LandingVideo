@@ -230,6 +230,7 @@
 	}
 
 	.bottom-fold {
+		overflow: hidden;
 		min-height: 2150px;
 	}
 
