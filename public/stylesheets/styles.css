@@ -122,7 +122,6 @@ ul {
 .pitch {
   width: 100%;
   border-bottom: 1px solid #ccc;
-  height: 680px;
   background: url("/images/blurvideo.mp4"); }
 
 a .button {
@@ -250,13 +249,10 @@ p .smaller {
   bottom: 0px;
   right: 0px;
   min-width: 100%;
-  min-height: 100%;
-  max-width: 4000%;
-  max-height: 4000%;
-  width: auto;
-  height: auto;
+  min-height: 116%;
   z-index: -1000;
   overflow: hidden; }
+
 
 .line {
   width: 100%;

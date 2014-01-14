@@ -36,9 +36,6 @@
 		font-size: 1.6em;
 	}
 
-	.pitch {
-		height: 650px;
-	}
 
 	h2 {
 		line-height: 0.85em;
@@ -119,10 +116,6 @@
 
 	.pitch .button p {
 		font-size: 2em;
-	}
-
-	.pitch {
-		height: 700px;
 	}
 
 	h2 {
@@ -208,10 +201,6 @@
 		font-size: 2.5em;
 	}
 
-	.pitch {
-		height: 700px;
-	}
-
 	h2 {
 		line-height: 0.85em;
 		font-size: 8em;
@@ -276,10 +265,6 @@
 		line-height: 1em;
 		font-size: 5.6em;
 		letter-spacing: -2px;
-	}
-
-	.pitch {
-		height: 700px;
 	}
 
 	.pitch .text {
@@ -357,11 +342,6 @@
 		font-size: 7em;
 		letter-spacing: -2px;
 	}
-
-	.pitch {
-		height: 700px;
-	}
-
 	.pitch .text {
 		margin: 12% 0 0 0;
 	}
