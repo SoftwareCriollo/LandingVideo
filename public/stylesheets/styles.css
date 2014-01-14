@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'adelle-italic';
-  src: url("/typography/adelle-lightitalic-webfont.eot");
-  src: url("/typography/adelle-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/adelle-lightitalic-webfont.woff") format("woff"), url("/typography/adelle-lightitalic-webfont.ttf") format("truetype"), url("/typography/adelle-lightitalic-webfont.svg#adelle-lightitalic") format("svg"); }
+  src: url("/typography/adelle_lightitalic-webfont.eot");
+  src: url("/typography/adelle_lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/adelle_lightitalic-webfont.woff") format("woff"), url("/typography/adelle_lightitalic-webfont.ttf") format("truetype"), url("/typography/adelle_lightitalic-webfont.svg#adelle-lightitalic") format("svg"); }
 
 @font-face {
   font-family: 'hype';
@@ -144,6 +144,7 @@ a .button:hover {
   font-weight: 500; }
 
 .bottom-fold {
+  overflow: hidden;
   background-color: #ededed;
   border-bottom: 1px solid #ccc;
   min-height: 890px;
