@@ -120,6 +120,7 @@ ul {
   height: 3px; }
 
 .pitch {
+  position:relative;
   width: 100%;
   border-bottom: 1px solid #ccc;
   background: url("/images/blurvideo.mp4"); }
