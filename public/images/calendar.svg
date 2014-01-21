@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="125px" height="122px" viewBox="0 0 125 122" enable-background="new 0 0 125 122" xml:space="preserve">
+<circle fill="#282828" cx="62.5" cy="60.5" r="60.25"/>
+<g id="Layer_1_1_">
+</g>
+<g id="calendar_1_">
+	<path fill="#FFFFFF" d="M89.001,34.188h-8.938v-4.125C80.062,28.922,79.14,28,78,28s-2.062,0.922-2.062,2.062v4.125H63.562v-4.125
+		c0-1.14-0.924-2.062-2.062-2.062s-2.062,0.922-2.062,2.062v4.125H47.062v-4.125C47.062,28.922,46.138,28,45,28
+		s-2.062,0.922-2.062,2.062v4.125H34c-3.038,0-5.5,2.46-5.5,5.499v48.813C28.5,91.539,30.962,94,34,94h55
+		c3.038,0,5.499-2.461,5.499-5.501V39.686C94.5,36.648,92.039,34.188,89.001,34.188z M90.375,88.499c0,0.76-0.616,1.376-1.374,1.376
+		H34c-0.759,0-1.375-0.616-1.375-1.376V39.686c0-0.757,0.616-1.374,1.375-1.374h8.937v4.125c0,1.14,0.924,2.062,2.062,2.062
+		s2.062-0.922,2.062-2.062v-4.125h12.375v4.125c0,1.14,0.924,2.062,2.062,2.062s2.062-0.922,2.062-2.062v-4.125h12.375v4.125
+		c0,1.14,0.923,2.062,2.062,2.062s2.062-0.922,2.062-2.062v-4.125h8.938c0.758,0,1.374,0.616,1.374,1.374V88.499z"/>
+	<rect x="42.938" y="52.75" fill="#FFFFFF" width="8.25" height="6.188"/>
+	<rect x="42.938" y="63.062" fill="#FFFFFF" width="8.25" height="6.188"/>
+	<rect x="42.938" y="73.375" fill="#FFFFFF" width="8.25" height="6.188"/>
+	<rect x="57.375" y="73.375" fill="#FFFFFF" width="8.25" height="6.188"/>
+	<rect x="57.375" y="63.062" fill="#FFFFFF" width="8.25" height="6.188"/>
+	<rect x="57.375" y="52.75" fill="#FFFFFF" width="8.25" height="6.188"/>
+	<rect x="71.812" y="73.375" fill="#FFFFFF" width="8.25" height="6.188"/>
+	<rect x="71.812" y="63.062" fill="#FFFFFF" width="8.25" height="6.188"/>
+	<rect x="71.812" y="52.75" fill="#FFFFFF" width="8.25" height="6.188"/>
+</g>
+</svg>

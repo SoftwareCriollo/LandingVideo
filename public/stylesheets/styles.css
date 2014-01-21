@@ -10,8 +10,8 @@
 
 @font-face {
   font-family: 'adelle-italic';
-  src: url("/typography/adelle_lightitalic-webfont.eot");
-  src: url("/typography/adelle_lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/adelle_lightitalic-webfont.woff") format("woff"), url("/typography/adelle_lightitalic-webfont.ttf") format("truetype"), url("/typography/adelle_lightitalic-webfont.svg#adelle-lightitalic") format("svg"); }
+  src: url("/typography/adelle-lightitalic-webfont.eot");
+  src: url("/typography/adelle-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("/typography/adelle-lightitalic-webfont.woff") format("woff"), url("/typography/adelle-lightitalic-webfont.ttf") format("truetype"), url("/typography/adelle-lightitalic-webfont.svg#adelle-lightitalic") format("svg"); }
 
 @font-face {
   font-family: 'hype';
@@ -122,8 +122,8 @@ ul {
 .pitch {
   width: 100%;
   border-bottom: 1px solid #ccc;
-  height: 680px;
-  background: url("/images/blurvideo.mp4"); }
+  background: url("/images/blurvideo.mp4");
+  overflow: hidden; }
 
 a .button {
   background-color: #db4747;
@@ -144,11 +144,11 @@ a .button:hover {
   font-weight: 500; }
 
 .bottom-fold {
-  overflow: hidden;
   background-color: #ededed;
   border-bottom: 1px solid #ccc;
   min-height: 890px;
-  padding: 3% 0; }
+  padding: 3% 0;
+  overflow: hidden; }
 
 .italic {
   font-family: "adelle-italic";
@@ -165,7 +165,10 @@ a .button:hover {
 .prices .threecolumn {
   background-color: white;
   padding: 4% 1% 2% 3%;
-  min-height: 400px; }
+  overflow: hidden; }
+
+.prices .threecolumn img {
+  float: left; }
 
 .bottom-fold .title {
   margin: 0 0 1% 0; }

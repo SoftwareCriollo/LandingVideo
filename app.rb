@@ -64,6 +64,10 @@ class NSAgentBackend < Sinatra::Base
     slim :"frontend/index", :layout => :"frontend/layout"
   end
 
+  get('/rentals') do
+    slim :"samples/rentals", :layout => :"frontend/layout"
+  end
+
   private
   
   def file_url_for(upload)

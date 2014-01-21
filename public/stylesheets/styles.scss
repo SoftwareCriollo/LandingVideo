@@ -167,8 +167,8 @@ ul {
 .pitch {
 	width: 100%;
 	border-bottom: 1px solid #ccc;
-	height: 680px;
 	background: url('/images/blurvideo.mp4');
+	overflow: hidden;
 }
 
 a .button {
@@ -197,6 +197,7 @@ a .button:hover {
 	border-bottom: 1px solid #ccc;
 	min-height: 890px;
 	padding: 3% 0;
+	overflow: hidden;
 }
 
 .italic {
@@ -213,10 +214,15 @@ a .button:hover {
 	text-align: center;
 }
 
+
 .prices .threecolumn {
 		background-color: white;
 		padding: 4% 1% 2% 3%;
-		min-height: 400px;
+		overflow: hidden;
+}
+
+.prices .threecolumn img {
+	float: left;
 }
 
 .bottom-fold .title {
