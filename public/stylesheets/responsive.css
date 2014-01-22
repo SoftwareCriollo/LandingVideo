@@ -79,12 +79,13 @@
 		margin: 5% 0 0 0 !important;
 	}
 
-	.samples {
-		width: 100%;
+	.samples img{
+		width: 98%;
 	}
 
-	.samples a, .samples p {
-		font-size: 1em;
+	.landing {
+		width: 100%;
+		text-align: center;
 	}
 
 }
@@ -167,13 +168,15 @@
 		margin: 5% 0 0 0 !important;
 	}
 
-	.samples {
-		width: 100%;
+	.samples img{
+		width: 98%;
 	}
 
-	.samples a, .samples p {
-		font-size: 1em;
+	.landing {
+		width: 100%;
+		text-align: center;
 	}
+
 }
 
 @media (min-width:480px) and (max-width: 640px){ 
@@ -253,6 +256,12 @@
 	.samples a {
 		font-size: 0.9em;
 	}
+
+	.landing {
+		width: 100%;
+		text-align: center;
+	}
+
 
 }
 
@@ -339,6 +348,11 @@
 		font-size: 0.9em;
 		margin: 0 1% 0 0 ;
 	}
+
+	.landing {
+		width: 100%;
+		text-align: center;
+	}
 }
 
 @media (min-width:768px) and (max-width: 1023px) { 
@@ -407,6 +421,14 @@
 		width: 100%;
 		margin-bottom: 3%;
 	}
+
+	.landing {
+		width: 33%;
+	}
+  .samples img {
+  	width: 98%;
+  }
+
 }
 
 
@@ -436,6 +458,11 @@
 	.threecolumn a {
 		font-size: 1em;
 	}
+
+  .samples img {
+  	width: 95%;
+  }
+
 }
 
 @media (min-width:1281px){ 
@@ -446,5 +473,9 @@
 
   .prices .threecolumn{
   	min-height: 425px !important;
+  }
+
+  .samples img {
+  	width: 95%;
   }
 }

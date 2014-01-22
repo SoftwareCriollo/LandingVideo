@@ -78,7 +78,7 @@ h2 {
   line-height: 1em; }
 
 h3 {
-  font-family: "adelle-lightitalic", "HelveticaNeue-Light", "arial", "Sans-serif";
+  font-family: "adelle-italic", "HelveticaNeue-Light", "arial", "Sans-serif";
   font-weight: lighter;
   font-size: 1.8em;
   letter-spacing: 0.75px;
@@ -229,12 +229,21 @@ p.small {
   font-size: 1em !important;
   text-align: center; }
 
-.contact, .samples {
+.contact {
   width: 30%;
   margin: 2% 0 0 0; }
 
 .samples {
-  width: 70%; }
+  width: 100%;
+  padding: 3% 0 25% 0; }
+
+.samples h1 {
+  color: black;
+  opacity: 0.8; }
+
+.landing {
+  width: 32%;
+  margin: 3% 0 0 0; }
 
 .contact p, .samples p {
   color: white;
