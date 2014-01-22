@@ -280,7 +280,7 @@ p.small {
 .footer {
 	width: 100%;
 	background-image: url('/images/footer-bg.png');
-	height: 150px;
+	overflow: hidden;
 }
 
 .created {
@@ -298,16 +298,23 @@ p.small {
 	text-align: center;
 }
 
-.contact {
+.contact, .samples {
 	width: 30%;
-	margin: 4% 0 0 0;
+	margin: 2% 0 0 0;
 }
 
-.contact p {
+.samples {
+	width: 70%;
+}
+
+.contact p, .samples p {
 	color: white;
 	line-height: 1em;
 }
 
+.samples a {
+	margin: 0 3% 0 0;
+}
 p .smaller {
 	font-size: 0.5em !important;
 }

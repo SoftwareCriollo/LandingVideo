@@ -78,7 +78,7 @@ h2 {
   line-height: 1em; }
 
 h3 {
-  font-family: "adelle-italic", "HelveticaNeue-Light", "arial", "Sans-serif";
+  font-family: "adelle-lightitalic", "HelveticaNeue-Light", "arial", "Sans-serif";
   font-weight: lighter;
   font-size: 1.8em;
   letter-spacing: 0.75px;
@@ -120,7 +120,6 @@ ul {
   height: 3px; }
 
 .pitch {
-  position:relative;
   width: 100%;
   border-bottom: 1px solid #ccc;
   background: url("/images/blurvideo.mp4");
@@ -216,7 +215,7 @@ p.small {
 .footer {
   width: 100%;
   background-image: url("/images/footer-bg.png");
-  height: 150px; }
+  overflow: hidden; }
 
 .created {
   width: 20%;
@@ -230,13 +229,19 @@ p.small {
   font-size: 1em !important;
   text-align: center; }
 
-.contact {
+.contact, .samples {
   width: 30%;
-  margin: 4% 0 0 0; }
+  margin: 2% 0 0 0; }
 
-.contact p {
+.samples {
+  width: 70%; }
+
+.contact p, .samples p {
   color: white;
   line-height: 1em; }
+
+.samples a {
+  margin: 0 3% 0 0; }
 
 p .smaller {
   font-size: 0.5em !important; }
@@ -254,10 +259,13 @@ p .smaller {
   bottom: 0px;
   right: 0px;
   min-width: 100%;
-  min-height: 116%;
+  min-height: 100%;
+  max-width: 4000%;
+  max-height: 4000%;
+  width: auto;
+  height: auto;
   z-index: -1000;
   overflow: hidden; }
-
 
 .line {
   width: 100%;
